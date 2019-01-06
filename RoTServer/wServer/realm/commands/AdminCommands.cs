@@ -16,10 +16,21 @@ using wServer.realm.worlds;
 
 namespace wServer.realm.commands
 {
+    internal class Ranks
+    {
+        public const int Free = 0;
+        public const int TierOne = 1;
+        public const int TierTwo = 2;
+        public const int TierThree = 3;
+        public const int Moderator = 4;
+        public const int Administrator = 5;
+        public const int Developer = 6;
+        public const int Founder = 7;
+    }
     internal class TestCommand : Command
     {
         public TestCommand()
-            : base("t", 1)
+            : base("t", Ranks.Founder)
         {
         }
 
@@ -44,7 +55,7 @@ namespace wServer.realm.commands
     internal class AddGiftCodeCommand : Command
     {
         public AddGiftCodeCommand()
-            : base("gcode", 1)
+            : base("gcode", Ranks.Founder)
         {
         }
 
@@ -65,7 +76,7 @@ namespace wServer.realm.commands
     internal class posCmd : Command
     {
         public posCmd()
-            : base("p", 1)
+            : base("p", Ranks.Free)
         {
         }
 
@@ -79,7 +90,7 @@ namespace wServer.realm.commands
     internal class BanCommand : Command
     {
         public BanCommand() : 
-            base("ban", permLevel: 1)
+            base("ban", permLevel: Ranks.Moderator)
         {
         }
 
@@ -106,7 +117,7 @@ namespace wServer.realm.commands
     internal class AddWorldCommand : Command
     {
         public AddWorldCommand()
-            : base("addworld", 1)
+            : base("addworld", Ranks.Founder)
         {
         }
 
@@ -121,7 +132,7 @@ namespace wServer.realm.commands
     internal class SpawnCommand : Command
     {
         public SpawnCommand()
-            : base("spawn", 1)
+            : base("spawn", Ranks.Administrator)
         {
         }
 
@@ -185,7 +196,7 @@ namespace wServer.realm.commands
     internal class AddEffCommand : Command
     {
         public AddEffCommand()
-            : base("addeff", 1)
+            : base("addeff", Ranks.Moderator)
         {
         }
 
@@ -219,7 +230,7 @@ namespace wServer.realm.commands
     internal class RemoveEffCommand : Command
     {
         public RemoveEffCommand()
-            : base("remeff", 1)
+            : base("remeff", Ranks.Moderator)
         {
         }
 
@@ -251,7 +262,7 @@ namespace wServer.realm.commands
     internal class GiveCommand : Command
     {
         public GiveCommand()
-            : base("give", 1)
+            : base("give", Ranks.Moderator)
         {
         }
 
@@ -296,7 +307,7 @@ namespace wServer.realm.commands
     internal class TpCommand : Command
     {
         public TpCommand()
-            : base("tp", 1)
+            : base("tp", Ranks.Moderator)
         {
         }
 
@@ -339,7 +350,7 @@ namespace wServer.realm.commands
 
     class KillAll : Command
     {
-        public KillAll() : base("killAll", permLevel: 1) { }
+        public KillAll() : base("killAll", permLevel: Ranks.Administrator) { }
         
         protected override bool Process(Player player, RealmTime time, string[] args)
         {
@@ -369,7 +380,7 @@ namespace wServer.realm.commands
     internal class Kick : Command
     {
         public Kick()
-            : base("kick", 1)
+            : base("kick", Ranks.Moderator)
         {
         }
 
@@ -403,7 +414,7 @@ namespace wServer.realm.commands
     internal class Mute : Command
     {
         public Mute()
-            : base("mute", 1)
+            : base("mute", Ranks.Moderator)
         {
         }
 
@@ -438,7 +449,7 @@ namespace wServer.realm.commands
     internal class Max : Command
     {
         public Max()
-            : base("max", 1)
+            : base("max", Ranks.Moderator)
         {
         }
 
@@ -471,7 +482,7 @@ namespace wServer.realm.commands
     internal class UnMute : Command
     {
         public UnMute()
-            : base("unmute", 1)
+            : base("unmute", Ranks.Moderator)
         {
         }
 
@@ -506,7 +517,7 @@ namespace wServer.realm.commands
     internal class OryxSay : Command
     {
         public OryxSay()
-            : base("osay", 1)
+            : base("osay", Ranks.Moderator)
         {
         }
 
@@ -526,7 +537,7 @@ namespace wServer.realm.commands
     internal class SWhoCommand : Command //get all players from all worlds (this may become too large!)
     {
         public SWhoCommand()
-            : base("swho", 1)
+            : base("swho", Ranks.Free)
         {
         }
 
@@ -560,7 +571,7 @@ namespace wServer.realm.commands
     internal class Announcement : Command
     {
         public Announcement()
-            : base("announce", 1)
+            : base("announce", Ranks.Moderator)
         {
         }
 
@@ -590,7 +601,7 @@ namespace wServer.realm.commands
     internal class Summon : Command
     {
         public Summon()
-            : base("summon", 1)
+            : base("summon", Ranks.Administrator)
         {
         }
 
@@ -645,7 +656,7 @@ namespace wServer.realm.commands
     internal class KillPlayerCommand : Command
     {
         public KillPlayerCommand()
-            : base("kill", 1)
+            : base("kill", Ranks.Founder)
         {
         }
 
@@ -669,7 +680,7 @@ namespace wServer.realm.commands
     internal class RestartCommand : Command
     {
         public RestartCommand()
-            : base("restart", 1)
+            : base("restart", Ranks.Developer)
         {
         }
 
@@ -1112,7 +1123,7 @@ namespace wServer.realm.commands
     internal class TqCommand : Command
     {
         public TqCommand()
-            : base("tq", 1)
+            : base("tq", Ranks.Administrator)
         {
         }
 
@@ -1199,7 +1210,7 @@ namespace wServer.realm.commands
     internal class LevelCommand : Command
     {
         public LevelCommand()
-            : base("level", 1)
+            : base("level", Ranks.Administrator)
         {
         }
 
@@ -1232,7 +1243,7 @@ namespace wServer.realm.commands
     internal class SetCommand : Command
     {
         public SetCommand()
-            : base("setStat", 1)
+            : base("setStat", Ranks.Administrator)
         {
         }
 
@@ -1376,7 +1387,7 @@ namespace wServer.realm.commands
     internal class SetpieceCommand : Command
     {
         public SetpieceCommand()
-            : base("setpiece", 1)
+            : base("setpiece", Ranks.Founder)
         {
         }
 
@@ -1391,27 +1402,21 @@ namespace wServer.realm.commands
 
     internal class ListCommands : Command
     {
-        public ListCommands() : base("commands", permLevel: 1) { }
+        public ListCommands() : base("commands", Ranks.Free ) { }
 
         protected override bool Process(Player player, RealmTime time, string[] args)
         {
-            Dictionary<string, Command> cmds = new Dictionary<string, Command>();
-            Type t = typeof(Command);
-            foreach (Type i in t.Assembly.GetTypes())
-                if (t.IsAssignableFrom(i) && i != t)
-                {
-                    Command instance = (Command)Activator.CreateInstance(i);
-                    cmds.Add(instance.CommandName, instance);
-                }
-            StringBuilder sb = new StringBuilder("");
-            Command[] copy = cmds.Values.ToArray();
-            for (int i = 0; i < copy.Length; i++)
-            {
-                if (i != 0) sb.Append(", ");
-                sb.Append(copy[i].CommandName);
-            }
 
-            player.SendInfo(sb.ToString());
+            StringBuilder sb = new StringBuilder("Available commands: { ");
+            var cmds = player.Manager.Commands.Commands.Values
+                .Where(x => x.HasPermission(player))
+                .ToList();
+            for (int i = 0; i < cmds.Count; i++)
+            {
+                if (i != 0) sb.Append(" } { ");
+                sb.Append(cmds[i].CommandName);
+            }
+            player.SendInfo(sb.ToString() + " }"); 
             return true;
         }
     }

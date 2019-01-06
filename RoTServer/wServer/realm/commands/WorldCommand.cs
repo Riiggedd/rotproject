@@ -15,7 +15,7 @@ using wServer.realm.entities.player;
 
 namespace wServer.realm.commands
 {
-    internal class ShowGiftCode : Command
+    /*internal class ShowGiftCode : Command
     {
         public ShowGiftCode()
             : base("giftcode")
@@ -48,7 +48,7 @@ namespace wServer.realm.commands
             });
             return true;
         }
-    }
+    }*/
 
     internal class TutorialCommand : Command
     {

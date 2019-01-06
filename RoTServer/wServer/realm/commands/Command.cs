@@ -13,32 +13,19 @@ namespace wServer.realm.commands
     {
         protected static readonly ILog log = LogManager.GetLogger(typeof (Command));
 
+
         public Command(string name, int permLevel = 0)
         {
             CommandName = name;
             PermissionLevel = permLevel;
         }
-
         public string CommandName { get; private set; }
         public int PermissionLevel { get; private set; }
-
         protected abstract bool Process(Player player, RealmTime time, string[] args);
-
-        private static int GetPermissionLevel(Player player)
-        {
-            if (player.Client.Account.Rank == 3)
-                return 1;
-            return 0;
-        }
-
-
         public bool HasPermission(Player player)
         {
-            if (GetPermissionLevel(player) < PermissionLevel)
-                return false;
-            return true;
+            return player.Client.Account.Rank >= PermissionLevel;
         }
-
         public bool Execute(Player player, RealmTime time, string args)
         {
             if (!HasPermission(player))
