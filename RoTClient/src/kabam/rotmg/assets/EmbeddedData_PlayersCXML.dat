@@ -30,8 +30,6 @@
       <LevelIncrease min="1" max="2">Dexterity</LevelIncrease>
       <LevelIncrease min="0" max="1">HpRegen</LevelIncrease>
       <LevelIncrease min="0" max="2">MpRegen</LevelIncrease>
-      <UnlockLevel level="5" type="0x0307">Archer</UnlockLevel>
-      <UnlockCost>199</UnlockCost>
       <DisplayId>{players.Rogue}</DisplayId>
    </Object>
    <Object type="0x0307" id="Archer">
@@ -63,8 +61,6 @@
       <LevelIncrease min="0" max="2">Dexterity</LevelIncrease>
       <LevelIncrease min="0" max="1">HpRegen</LevelIncrease>
       <LevelIncrease min="0" max="2">MpRegen</LevelIncrease>
-      <UnlockLevel level="5" type="0x0310">Priest</UnlockLevel>
-      <UnlockCost>199</UnlockCost>
       <DisplayId>{players.Archer}</DisplayId>
    </Object>
    <Object type="0x030e" id="Wizard">
@@ -96,7 +92,6 @@
       <LevelIncrease min="1" max="2">Dexterity</LevelIncrease>
       <LevelIncrease min="0" max="1">HpRegen</LevelIncrease>
       <LevelIncrease min="0" max="2">MpRegen</LevelIncrease>
-      <UnlockCost>0</UnlockCost>
       <DisplayId>{players.Wizard}</DisplayId>
    </Object>
    <Object type="0x0310" id="Priest">
@@ -128,8 +123,6 @@
       <LevelIncrease min="0" max="2">Dexterity</LevelIncrease>
       <LevelIncrease min="0" max="1">HpRegen</LevelIncrease>
       <LevelIncrease min="1" max="2">MpRegen</LevelIncrease>
-      <UnlockLevel level="5" type="0x030e">Wizard</UnlockLevel>
-      <UnlockCost>50</UnlockCost>
       <DisplayId>{players.Priest}</DisplayId>
    </Object>
    <Object type="0x031d" id="Warrior">
@@ -161,8 +154,6 @@
       <LevelIncrease min="0" max="2">Dexterity</LevelIncrease>
       <LevelIncrease min="1" max="2">HpRegen</LevelIncrease>
       <LevelIncrease min="0" max="2">MpRegen</LevelIncrease>
-      <UnlockLevel level="5" type="0x0300">Rogue</UnlockLevel>
-      <UnlockCost>199</UnlockCost>
       <DisplayId>{players.Warrior}</DisplayId>
    </Object>
    <Object type="0x031e" id="Knight">
@@ -194,8 +185,6 @@
       <LevelIncrease min="0" max="2">Dexterity</LevelIncrease>
       <LevelIncrease min="1" max="2">HpRegen</LevelIncrease>
       <LevelIncrease min="0" max="2">MpRegen</LevelIncrease>
-      <UnlockLevel level="20" type="0x031d">Warrior</UnlockLevel>
-      <UnlockCost>499</UnlockCost>
       <DisplayId>{players.Knight}</DisplayId>
    </Object>
    <Object type="0x031f" id="Paladin">
@@ -227,9 +216,6 @@
       <LevelIncrease min="0" max="2">Dexterity</LevelIncrease>
       <LevelIncrease min="0" max="1">HpRegen</LevelIncrease>
       <LevelIncrease min="1" max="2">MpRegen</LevelIncrease>
-      <UnlockLevel level="20" type="0x031e">Knight</UnlockLevel>
-      <UnlockLevel level="20" type="0x0310">Priest</UnlockLevel>
-      <UnlockCost>499</UnlockCost>
       <DisplayId>{players.Paladin}</DisplayId>
    </Object>
    <Object type="0x0320" id="Assassin">
@@ -261,9 +247,6 @@
       <LevelIncrease min="1" max="2">Dexterity</LevelIncrease>
       <LevelIncrease min="0" max="1">HpRegen</LevelIncrease>
       <LevelIncrease min="1" max="2">MpRegen</LevelIncrease>
-      <UnlockLevel level="20" type="0x0300">Rogue</UnlockLevel>
-      <UnlockLevel level="20" type="0x030e">Wizard</UnlockLevel>
-      <UnlockCost>499</UnlockCost>
       <DisplayId>{players.Assassin}</DisplayId>
    </Object>
    <Object type="0x0321" id="Necromancer">
@@ -295,9 +278,6 @@
       <LevelIncrease min="1" max="2">Dexterity</LevelIncrease>
       <LevelIncrease min="0" max="1">HpRegen</LevelIncrease>
       <LevelIncrease min="1" max="2">MpRegen</LevelIncrease>
-      <UnlockLevel level="20" type="0x030e">Wizard</UnlockLevel>
-      <UnlockLevel level="20" type="0x0310">Priest</UnlockLevel>
-      <UnlockCost>499</UnlockCost>
       <DisplayId>{players.Necromancer}</DisplayId>
    </Object>
    <Object type="0x0322" id="Huntress">
@@ -329,9 +309,6 @@
       <LevelIncrease min="0" max="2">Dexterity</LevelIncrease>
       <LevelIncrease min="0" max="1">HpRegen</LevelIncrease>
       <LevelIncrease min="0" max="2">MpRegen</LevelIncrease>
-      <UnlockLevel level="20" type="0x0300">Rogue</UnlockLevel>
-      <UnlockLevel level="20" type="0x0307">Archer</UnlockLevel>
-      <UnlockCost>499</UnlockCost>
       <DisplayId>{players.Huntress}</DisplayId>
    </Object>
    <Object type="0x0323" id="Mystic">
@@ -363,9 +340,6 @@
       <LevelIncrease min="0" max="2">Dexterity</LevelIncrease>
       <LevelIncrease min="0" max="1">HpRegen</LevelIncrease>
       <LevelIncrease min="1" max="2">MpRegen</LevelIncrease>
-      <UnlockLevel level="20" type="0x0322">Huntress</UnlockLevel>
-      <UnlockLevel level="20" type="0x0321">Necromancer</UnlockLevel>
-      <UnlockCost>999</UnlockCost>
       <DisplayId>{players.Mystic}</DisplayId>
    </Object>
    <Object type="0x0324" id="Trickster">
@@ -397,9 +371,6 @@
       <LevelIncrease min="1" max="2">Dexterity</LevelIncrease>
       <LevelIncrease min="0" max="1">HpRegen</LevelIncrease>
       <LevelIncrease min="0" max="2">MpRegen</LevelIncrease>
-      <UnlockLevel level="20" type="0x0320">Assassin</UnlockLevel>
-      <UnlockLevel level="20" type="0x031f">Paladin</UnlockLevel>
-      <UnlockCost>999</UnlockCost>
       <DisplayId>{players.Trickster}</DisplayId>
    </Object>
    <Object type="0x0325" id="Sorcerer">
@@ -431,9 +402,6 @@
       <LevelIncrease min="0" max="2">Dexterity</LevelIncrease>
       <LevelIncrease min="1" max="2">HpRegen</LevelIncrease>
       <LevelIncrease min="1" max="2">MpRegen</LevelIncrease>
-      <UnlockLevel level="20" type="0x0321">Necromancer</UnlockLevel>
-      <UnlockLevel level="20" type="0x0320">Assassin</UnlockLevel>
-      <UnlockCost>999</UnlockCost>
       <DisplayId>{players.Sorcerer}</DisplayId>
    </Object>
    <Object type="0x0326" id="Ninja">
@@ -465,9 +433,6 @@
       <LevelIncrease min="1" max="2">Dexterity</LevelIncrease>
       <LevelIncrease min="0" max="1">HpRegen</LevelIncrease>
       <LevelIncrease min="1" max="2">MpRegen</LevelIncrease>
-      <UnlockLevel level="20" type="0x0300">Rogue</UnlockLevel>
-      <UnlockLevel level="20" type="0x031d">Warrior</UnlockLevel>
-      <UnlockCost>999</UnlockCost>
       <DisplayId>{players.Ninja}</DisplayId>
    </Object>
 </Objects>
