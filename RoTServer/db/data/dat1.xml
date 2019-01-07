@@ -53632,6 +53632,7 @@
 			<Index>0</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0300</PlayerClassType>
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Bandit}</DisplayId>
 	</Object>
 	<Object type="0x0343" id="Robin Hood">
@@ -53642,7 +53643,7 @@
 			<Index>1</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0307</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Robin_Hood}</DisplayId>
 	</Object>
 	<Object type="0x0344" id="Merlin">
@@ -53653,7 +53654,7 @@
 			<Index>2</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x030e</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Merlin}</DisplayId>
 	</Object>
 	<Object type="0x0345" id="Traditional">
@@ -53664,7 +53665,7 @@
 			<Index>3</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0310</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Traditional}</DisplayId>
 	</Object>
 	<Object type="0x0346" id="Juggernaut">
@@ -53675,7 +53676,7 @@
 			<Index>4</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031d</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Juggernaut}</DisplayId>
 	</Object>
 	<Object type="0x0347" id="Knight of the Round">
@@ -53686,7 +53687,7 @@
 			<Index>5</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031e</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Knight_of_the_Round}</DisplayId>
 	</Object>
 	<Object type="0x0348" id="Decorated Paladin">
@@ -53697,7 +53698,7 @@
 			<Index>6</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031f</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Decorated_Paladin}</DisplayId>
 	</Object>
 	<Object type="0x0349" id="Stealth">
@@ -53708,7 +53709,7 @@
 			<Index>7</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0320</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Stealth}</DisplayId>
 	</Object>
 	<Object type="0x034a" id="Death Mage">
@@ -53719,7 +53720,7 @@
 			<Index>8</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0321</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Death_Mage}</DisplayId>
 	</Object>
 	<Object type="0x034b" id="Amazonian">
@@ -53730,7 +53731,7 @@
 			<Index>9</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0322</PlayerClassType>
-
+<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Amazonian}</DisplayId>
 	</Object>
 	<Object type="0x034c" id="Seer">
@@ -53741,7 +53742,7 @@
 			<Index>10</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0323</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Seer}</DisplayId>
 	</Object>
 	<Object type="0x034d" id="Loki">
@@ -53752,7 +53753,7 @@
 			<Index>11</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0324</PlayerClassType>
-
+<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Loki}</DisplayId>
 	</Object>
 	<Object type="0x034e" id="Warlock">
@@ -53763,7 +53764,7 @@
 			<Index>12</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0325</PlayerClassType>
-
+<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Warlock}</DisplayId>
 	</Object>
 	<Object type="0x034f" id="Shadow">
@@ -53774,7 +53775,7 @@
 			<Index>13</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0326</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Shadow}</DisplayId>
 	</Object>
 	<Object type="0x0350" id="Elder Wizard">
@@ -53785,7 +53786,7 @@
 			<Index>14</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x030e</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Elder_Wizard}</DisplayId>
 	</Object>
 	<Object type="0x0351" id="Robed Priest">
@@ -53796,7 +53797,7 @@
 			<Index>15</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0310</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Robed_Priest}</DisplayId>
 	</Object>
 	<Object type="0x0352" id="Santa">
@@ -53807,7 +53808,7 @@
 			<Index>16</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x030e</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Santa}</DisplayId>
 	</Object>
 	<Object type="0x0353" id="Little Helper">
@@ -53818,7 +53819,7 @@
 			<Index>17</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0307</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Little_Helper}</DisplayId>
 	</Object>
 	<Object type="0x0354" id="Father Time">
@@ -53829,7 +53830,7 @@
 			<Index>18</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0310</PlayerClassType>
-
+<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Father_Time}</DisplayId>
 	</Object>
 	<Object type="0x0355" id="Down Under">
@@ -53840,7 +53841,7 @@
 			<Index>19</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031d</PlayerClassType>
-
+<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Down_Under}</DisplayId>
 	</Object>
 	<Object type="0x0356" id="Founding Father">
@@ -53851,7 +53852,7 @@
 			<Index>20</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031f</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Founding_Father}</DisplayId>
 	</Object>
 	<Object type="0x0357" id="Cupid">
@@ -53862,7 +53863,7 @@
 			<Index>21</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0307</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Cupid}</DisplayId>
 	</Object>
 	<Object type="0x0387" id="Slime Knight">
@@ -53873,7 +53874,7 @@
 			<Index>30</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031e</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Slime_Knight}</DisplayId>
 	</Object>
 	<Object type="0x0388" id="Slime Archer">
@@ -53884,7 +53885,7 @@
 			<Index>35</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0307</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Slime_Archer}</DisplayId>
 	</Object>
 	<Object type="0x0389" id="Slime Priest">
@@ -53895,7 +53896,7 @@
 			<Index>31</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0310</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Slime_Priest}</DisplayId>
 	</Object>
 	<Object type="0x0390" id="Agent">
@@ -53906,7 +53907,7 @@
 			<Index>36</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0320</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Agent}</DisplayId>
 	</Object>
 	<Object type="0x0391" id="Brigand">
@@ -53917,7 +53918,7 @@
 			<Index>44</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0300</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Brigand}</DisplayId>
 	</Object>
 	<Object type="0x0392" id="Gentleman">
@@ -53928,7 +53929,7 @@
 			<Index>41</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x030e</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Gentleman}</DisplayId>
 	</Object>
 	<Object type="0x0384" id="Scarlett">
@@ -53939,7 +53940,7 @@
 			<Index>48</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0322</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Scarlett}</DisplayId>
 	</Object>
 	<Object type="0x0373" id="Shoveguy">
@@ -53950,7 +53951,7 @@
 			<Index>37</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031d</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Shoveguy}</DisplayId>
 	</Object>
 	<Object type="0x0386" id="Iceman">
@@ -53961,7 +53962,7 @@
 			<Index>50</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031e</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Iceman}</DisplayId>
 	</Object>
 	<Object type="0x0358" id="Slime Ninja">
@@ -53972,7 +53973,7 @@
 			<Index>22</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0326</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Slime_Ninja}</DisplayId>
 	</Object>
 	<Object type="0x0393" id="Bashing Bride">
@@ -53983,7 +53984,7 @@
 			<Index>51</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031f</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Bashing_Bride}</DisplayId>
 	</Object>
 	<Object type="0x0394" id="Eligible Bachelor">
@@ -53994,7 +53995,7 @@
 			<Index>52</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0300</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Eligible_Bachelor}</DisplayId>
 	</Object>
 	<Object type="0x0374" id="Nun">
@@ -54005,7 +54006,7 @@
 			<Index>38</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0310</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Nun}</DisplayId>
 	</Object>
 	<Object type="0x0382" id="Witch Doctor">
@@ -54016,7 +54017,7 @@
 			<Index>46</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0321</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Witch_Doctor}</DisplayId>
 	</Object>
 	<Object type="0x0383" id="Sorceress">
@@ -54027,7 +54028,7 @@
 			<Index>47</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0325</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Sorceress}</DisplayId>
 	</Object>
 	<Object type="0x0385" id="Artemis">
@@ -54038,7 +54039,7 @@
 			<Index>53</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0322</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Artemis}</DisplayId>
 	</Object>
 	<Object type="0x0368" id="Slime Wizard">
@@ -54049,7 +54050,7 @@
 			<Index>32</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x030e</PlayerClassType>
-
+<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Slime_Wizard}</DisplayId>
 	</Object>
 	<Object type="0x0395" id="Deadly Vixen">
@@ -54060,7 +54061,7 @@
 			<Index>49</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0324</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Deadly_Vixen}</DisplayId>
 	</Object>
 	<Object type="0x2297" id="Stanley the Spring Bunny">
@@ -54071,7 +54072,7 @@
 			<Index>54</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0325</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Stanley_the_Spring_Bunny}</DisplayId>
 	</Object>
 	<Object type="0x2311" id="Nexus no Miko">
@@ -54082,7 +54083,7 @@
 			<Index>68</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0322</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Nexus_no_Miko}</DisplayId>
 	</Object>
 	<Object type="0x2313" id="Drow Trickster">
@@ -54093,7 +54094,7 @@
 			<Index>70</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0324</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Drow_Trickster}</DisplayId>
 	</Object>
 	<Object type="0x2307" id="B.B. Wolf">
@@ -54104,7 +54105,7 @@
 			<Index>58</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031d</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.B.B._Wolf}</DisplayId>
 	</Object>
 	<Object type="0x2308" id="Lil Red">
@@ -54115,7 +54116,7 @@
 			<Index>59</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0323</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Lil_Red}</DisplayId>
 	</Object>
 	<Object type="0x0375" id="Holy Avenger">
@@ -54126,7 +54127,7 @@
 			<Index>39</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031f</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Holy_Avenger}</DisplayId>
 	</Object>
 	<Object type="0x2309" id="King Knifeula">
@@ -54137,7 +54138,7 @@
 			<Index>60</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0324</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.King_Knifeula}</DisplayId>
 	</Object>
 	<Object type="0x0378" id="Ranger">
@@ -54148,7 +54149,7 @@
 			<Index>42</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0307</PlayerClassType>
-
+<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Ranger}</DisplayId>
 	</Object>
 	<Object type="0x2304" id="Platinum Knight">
@@ -54159,7 +54160,7 @@
 			<Index>55</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031e</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Platinum_Knight}</DisplayId>
 	</Object>
 	<Object type="0x2305" id="Platinum Warrior">
@@ -54170,7 +54171,7 @@
 			<Index>56</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031d</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Platinum_Warrior}</DisplayId>
 	</Object>
 	<Object type="0x2306" id="Platinum Rogue">
@@ -54181,7 +54182,7 @@
 			<Index>57</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0300</PlayerClassType>
-
+<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Platinum_Rogue}</DisplayId>
 	</Object>
 	<Object type="0x2334" id="Witch">
@@ -54192,7 +54193,7 @@
 			<Index>71</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x030e</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Witch}</DisplayId>
 	</Object>
 	<Object type="0x2335" id="Slime Sorcerer">
@@ -54203,7 +54204,7 @@
 			<Index>23</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0325</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Slime_Sorcerer}</DisplayId>
 	</Object>
 	<Object type="0x2336" id="Slime Trickster">
@@ -54214,7 +54215,7 @@
 			<Index>24</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0324</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Slime_Trickster}</DisplayId>
 	</Object>
 	<Object type="0x2342" id="Slime Mystic">
@@ -54225,7 +54226,7 @@
 			<Index>25</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0323</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Slime_Mystic}</DisplayId>
 	</Object>
 	<Object type="0x2343" id="Slime Huntress">
@@ -54236,7 +54237,7 @@
 			<Index>26</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0322</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Slime_Huntress}</DisplayId>
 	</Object>
 	<Object type="0x2344" id="Slime Necromancer">
@@ -54247,7 +54248,7 @@
 			<Index>27</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0321</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Slime_Necromancer}</DisplayId>
 	</Object>
 	<Object type="0x2345" id="Slime Assassin">
@@ -54258,7 +54259,7 @@
 			<Index>28</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0320</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Slime_Assassin}</DisplayId>
 	</Object>
 	<Object type="0x2346" id="Slime Paladin">
@@ -54269,7 +54270,7 @@
 			<Index>29</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031f</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Slime_Paladin}</DisplayId>
 	</Object>
 	<Object type="0x2347" id="Slime Rogue">
@@ -54280,7 +54281,7 @@
 			<Index>33</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0300</PlayerClassType>
-
+<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Slime_Rogue}</DisplayId>
 	</Object>
 	<Object type="0x2348" id="Slime Warrior">
@@ -54291,7 +54292,7 @@
 			<Index>34</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031d</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Slime_Warrior}</DisplayId>
 	</Object>
 	<Object type="0x744a" id="Puppet Master">
@@ -54302,7 +54303,7 @@
 			<Index>72</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0320</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Puppet_Master}</DisplayId>
 	</Object>
 	<Object type="0x744b" id="Jester">
@@ -54313,7 +54314,7 @@
 			<Index>73</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0324</PlayerClassType>
-
+<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Jester}</DisplayId>
 	</Object>
 	<Object type="0x745D" id="Ghost Huntress">
@@ -54324,7 +54325,7 @@
 			<Index>75</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0322</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Ghost_Huntress}</DisplayId>
 	</Object>
 	<Object type="0x745E" id="Skeleton Warrior">
@@ -54335,7 +54336,7 @@
 			<Index>74</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031d</PlayerClassType>
-
+<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Skeleton_Warrior}</DisplayId>
 	</Object>
 	<Object type="0x745F" id="Infected Assassin">
@@ -54346,7 +54347,7 @@
 			<Index>76</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0320</PlayerClassType>
-
+<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Infected_Assassin}</DisplayId>
 	</Object>
 	<Object type="0x7467" id="Huntsman">
@@ -54357,7 +54358,7 @@
 			<Index>77</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0307</PlayerClassType>
-
+<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Huntsman}</DisplayId>
 	</Object>
 	<Object type="0x7468" id="Demon Spawn">
@@ -54368,7 +54369,7 @@
 			<Index>78</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031f</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Demon_Spawn}</DisplayId>
 	</Object>
 	<Object type="0x7469" id="Dark Elf Huntress">
@@ -54379,7 +54380,7 @@
 			<Index>79</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0322</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Dark_Elf_Huntress}</DisplayId>
 	</Object>
 	<Object type="0x7478" id="Hunchback">
@@ -54390,7 +54391,7 @@
 			<Index>80</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031d</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Hunchback}</DisplayId>
 	</Object>
 	<Object type="0x7479" id="Vampiress">
@@ -54401,7 +54402,7 @@
 			<Index>81</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0324</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Vampiress}</DisplayId>
 	</Object>
 	<Object type="0x747A" id="Frankenstein's Monster">
@@ -54412,7 +54413,7 @@
 			<Index>82</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x031e</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.FrankensteinAPOSs_Monster}</DisplayId>
 	</Object>
 	<Object type="0x7470" id="Jack the Ripper">
@@ -54423,7 +54424,7 @@
 			<Index>83</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0300</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Jack_the_Ripper}</DisplayId>
 	</Object>
 	<Object type="0x7471" id="Death">
@@ -54434,7 +54435,7 @@
 			<Index>84</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0326</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Death}</DisplayId>
 	</Object>
 	<Object type="0x7472" id="Tiny Avatar">
@@ -54445,7 +54446,7 @@
 			<Index>85</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0321</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Tiny_Avatar}</DisplayId>
 	</Object>
 	<Object type="0x7473" id="Zombie Nurse">
@@ -54456,7 +54457,7 @@
 			<Index>86</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0310</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Zombie_Nurse}</DisplayId>
 	</Object>
 	<Object type="0x2310" id="Ascended Sorcerer">
@@ -54467,7 +54468,7 @@
 			<Index>67</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0325</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Ascended_Sorcerer}</DisplayId>
 	</Object>
 	<Object type="0x7475" id="Mischievous Imp">
@@ -54478,7 +54479,7 @@
 			<Index>88</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x030e</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Mischievous_Imp}</DisplayId>
 	</Object>
 	<Object type="0x7476" id="Vampire Hunter">
@@ -54489,7 +54490,7 @@
 			<Index>89</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0320</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Vampire_Hunter}</DisplayId>
 	</Object>
 	<Object type="0x7477" id="Poltergeist">
@@ -54500,7 +54501,7 @@
 			<Index>90</Index>
 		</AnimatedTexture>
 		<PlayerClassType>0x0323</PlayerClassType>
-
+		<UnlockSpecial>You haven't found this skin yet!</UnlockSpecial>
 		<DisplayId>{skins.Poltergeist}</DisplayId>
 	</Object>
    <Object type="0x0401" id="Oryx Set Skin">
