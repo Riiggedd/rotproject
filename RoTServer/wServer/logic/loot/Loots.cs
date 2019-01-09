@@ -28,7 +28,9 @@ namespace wServer.logic.loot
     public class Loot : List<ILootDef>
     {
         private static readonly Random rand = new Random();
-
+        private static string[] itemsThatGetCalled = {
+            "Demon Blade" //just one for now, add more when have more time
+        };
         public Loot(params ILootDef[] lootDefs) //For independent loots(e.g. chests)
         {
             AddRange(lootDefs);
@@ -150,10 +152,13 @@ namespace wServer.logic.loot
                     items = new Item[8];
                     idx = 0;
                 }
+                if (itemsThatGetCalled.Contains(i.ObjectId))
+                    foreach (var p in enemy.Owner.Players.Values)
+                        p.SendEnemy("Loot Seeker", owners[0].Name + " has just obtained: '" + i.ObjectId + "'!");
             }
 
             if (idx > 0)
-                ShowBag(enemy, ownerIds, bagType, items);
+                ShowBag(enemy, ownerIds, bagType, items); 
         }
 
         private static void ShowBag(Enemy enemy, string[] owners, int bagType, Item[] items)
